@@ -1,2 +1,4 @@
 # TestRepo
 TestRepo
+
+I chose to set up the data structure of these events as an array of objects as they are easily broken up or destructured and saved that say and new events can just be pushed into the array for further comparison. Also referencing their properties is much easier this way as well when setting up comparison operators. My algorithm just checks for overlaps on the same days if there are events running at the same time so just making two comparison checks using if conditional statements and returning the data by console logging it. A potential edge case that I may see for this problem would be when checking for the overlaps as they may be more complicated(ex: One event starting as soon as another has ended.) however, changing the algorithm for that case should solve that issue.
